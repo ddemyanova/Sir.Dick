@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/qq/ontologies/2017/3/untitled-ontology-59"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/qq/ontologies/2017/3/untitled-ontology-59">
+    <Prefix name="" IRI="https://www.w3.org/ns/ssn/dul#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.ontologydesignpatterns.org/ont/dul/DUL.owl</Import>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/DeploymentRelatedProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/FeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/ObservationValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorDataSheet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorInput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorOutput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/Stimulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ssn/System"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObjectIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isQualityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRegionFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#satisfies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/attachedSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deployedSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deploymentProcessPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/endTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/featureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasDeployment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasSubSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/inDeployment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/isPropertyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/madeObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationResultTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationSamplingTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observedProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/onPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/sensingMethodUsed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/startTime"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/DeploymentRelatedProcess"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Device"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/FeatureOfInterest"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Observation"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesEvent"/>
+            <Class IRI="http://www.w3.org/ns/ssn/Stimulus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/ObservationValue"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/ObservationValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRegionFor"/>
+            <Class IRI="http://www.w3.org/ns/ssn/SensorOutput"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Platform"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Process"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Property"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Sensor"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorDataSheet"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorInput"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/SensorOutput"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/Stimulus"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ssn/System"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/attachedSystem"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deployedSystem"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/deploymentProcessPart"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/endTime"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/featureOfInterest"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasDeployment"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasProperty"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasSubSystem"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasValue"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/inDeployment"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/isPropertyOf"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isQualityOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/madeObservation"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObjectIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationResult"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationResultTime"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observationSamplingTime"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observedBy"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/observedProperty"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/onPlatform"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/sensingMethodUsed"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#satisfies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/startTime"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
