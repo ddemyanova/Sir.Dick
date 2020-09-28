@@ -1,0 +1,4710 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31">
+    <Prefix name="" IRI="http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Аннотация ТП</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Онтология технологического процесса, которая разрабатывается для изготовления продукта труда или совершенствования выпускаемого</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>3.22</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Abnormal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Absolute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentivePhysical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#And"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auxiliary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuxiliaryWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biophysical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Const"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Correct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dangerous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Danial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Differences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiscretFact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisturbTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ETS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#East"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElementHMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entails"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventHMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiencer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#False"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForPhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForSocialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GradationStates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroupTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inanimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationRealization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterTimeZone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logarithmic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#META"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialBoundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MnemonicDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiDimensional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NameNumberAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Names"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nomenclature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAgentivePhysical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonWorking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#North"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotCorrect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotReady"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numbers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneDimensional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Or"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrgElements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Origin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parameters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Path"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceptual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanExecution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductOfLabor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ranges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ranks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ready"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegSpaceZone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationships"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Results"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensingDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sotuh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpaceTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialBoundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatioTemporalRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StableCasual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaffAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateGroupTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateProductOfLabor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stimulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectOfLabor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TECHPROCESS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnologyExecution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeBoundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#True"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Units"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnstableEmergency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#West"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CurrentlyAvailable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DisplayedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasMeasurementCapability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSpatialBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SpatialBoundaryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TimeBoundaryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actsFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actsThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#boundaryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characterizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conceptualizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#concretelyExpresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#control"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesTask"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dependsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directlyFollows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#displays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#executesTask"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expands"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expressesConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#farFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#feautureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#forProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnalyzer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConstituent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConstraint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLeftTimeBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasurementProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPostcondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrecondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRightTimeBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSetting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTask"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTimeBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implementedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includesTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#introduces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvesAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActionIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAgentIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAgentInvolvedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConceptExpressedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConceptUsedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConceptualizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConcretelyExpressedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConstituentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConstraintFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCoveredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDefinedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExecutedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExpandedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExpressedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIntroducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObservableAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParameterFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParametrizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPostconditionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPreconditionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProdusedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPropertyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProxyFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQualityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRealizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReferenceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReferenceOfInformationRealizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRegionFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResultOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRoleDefinedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRoleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSatisfiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSpecializedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTaskDefinedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTaskOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTimeIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTimeOfObservationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUnifiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nearTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observationResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observedProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlaps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parametrizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizesInformationAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#satisfies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specializes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesOnValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesConcept"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDataValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEventDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIntervalDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasParameterDataValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProxy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRegionDataValue"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Agent"/>
+        <ObjectUnionOf>
+            <Class IRI="#PhysicalAgent"/>
+            <Class IRI="#SocialAgent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InformationEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#InformationRealization"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InformationRealization"/>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <Class IRI="#PhysicalObject"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Event"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasParticipant"/>
+                        <Class IRI="#PhysicalObject"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#realizes"/>
+                <Class IRI="#InformationObject"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Input"/>
+        <Class IRI="#Stimulus"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Line"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SpatialBoundaryOf"/>
+            <Class IRI="#Surface"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Object"/>
+        <ObjectUnionOf>
+            <Class IRI="#PhysicalObject"/>
+            <Class IRI="#SocialObject"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PlanExecution"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Situation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#satisfies"/>
+                <Class IRI="#Plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Point"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SpatialBoundaryOf"/>
+            <Class IRI="#Line"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SocialObject"/>
+        <ObjectUnionOf>
+            <Class IRI="#Collection"/>
+            <Class IRI="#Concept"/>
+            <Class IRI="#Description"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#Place"/>
+            <Class IRI="#Situation"/>
+            <Class IRI="#SocialAgent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SpatialBoundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SpatialBoundaryOf"/>
+            <Class IRI="#Space"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Surface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SpatialBoundaryOf"/>
+            <Class IRI="#Topoid"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Abnormal"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Absolute"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Absolute"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Numbers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abstract"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#executesTask"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Active"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentivePhysical"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alive"/>
+        <Class IRI="#AgentivePhysical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#And"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#NonAgentivePhysical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#implementedBy"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDescribedBy"/>
+            <Class IRI="#Plan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atribute"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auxiliary"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuxiliaryWorker"/>
+        <Class IRI="#Organisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balance"/>
+        <Class IRI="#TechCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalObject"/>
+        <Class IRI="#Internal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biophysical"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biophysical"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Results"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boundary"/>
+        <Class IRI="#TechCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronoid"/>
+        <Class IRI="#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSettingFor"/>
+            <Class IRI="#Concept"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#isSettingFor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collection"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collection"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Collection"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collective"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collective"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMember"/>
+            <Class IRI="#Agent"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#Visual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community"/>
+        <Class IRI="#StaffAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#ETS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#ProductOfLabor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#StaffAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedIn"/>
+            <Class IRI="#Description"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Concept"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Configuration"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Const"/>
+        <Class IRI="#TechCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Correct"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dangerous"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danial"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Differences"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Differences"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Numbers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direction"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directional"/>
+        <Class IRI="#Positional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiscretFact"/>
+        <Class IRI="#TechEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisturbTP"/>
+        <Class IRI="#TechEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisturbTP"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#satisfies"/>
+                <Class IRI="#Condition"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class IRI="#ElementHMI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ETS"/>
+        <Class IRI="#SocialAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#East"/>
+        <Class IRI="#Directional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElementHMI"/>
+        <Class IRI="#HMI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElementHMI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#control"/>
+            <Class IRI="#ModeTP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endurant"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entails"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasConstituent"/>
+            <Class IRI="#Event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventHMI"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventType"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#classifies"/>
+            <Class IRI="#Event"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exists"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiencer"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilities"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#False"/>
+        <Class IRI="#Logical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForPhysicalObject"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForPhysicalObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isRegionFor"/>
+            <Class IRI="#PhysicalObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForSocialObject"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForSocialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isRegionFor"/>
+            <Class IRI="#SocialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#TechCondition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#takesOnValue"/>
+            <Class IRI="#Logical"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComponent"/>
+            <Class IRI="#Plan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GradationStates"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group"/>
+        <Class IRI="#StaffAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroupTP"/>
+        <Class IRI="#StateGroupTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HMI"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#PhysicalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnalyzer"/>
+            <Class IRI="#Perceptual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inanimate"/>
+        <Class IRI="#AgentivePhysical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationEntity"/>
+        <Class IRI="#Abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#InformationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRealizedBy"/>
+            <Class IRI="#InformationRealization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#expresses"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationRealization"/>
+        <Class IRI="#InformationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationRealization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#concretelyExpresses"/>
+            <Class IRI="#SocialObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationRealization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realizes"/>
+            <Class IRI="#InformationObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProxyFor"/>
+            <Class IRI="#Property"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrument"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterTimeZone"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal"/>
+        <Class IRI="#Atribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Line"/>
+        <Class IRI="#SpatialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logarithmic"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logarithmic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Numbers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logical"/>
+        <Class IRI="#Relational"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalOperator"/>
+        <Class IRI="#Abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#META"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacture"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependsOn"/>
+            <Class IRI="#ETS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#TECHPROCESS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#produces"/>
+            <Class IRI="#ProductOfLabor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialBoundary"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialBoundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependsOn"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialLine"/>
+        <Class IRI="#MaterialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialLine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#boundaryOf"/>
+            <Class IRI="#MaterialSurface"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialPoint"/>
+        <Class IRI="#MaterialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#boundaryOf"/>
+            <Class IRI="#MaterialLine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialSurface"/>
+        <Class IRI="#MaterialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialSurface"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#boundaryOf"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementCapability"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementProperty"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental"/>
+        <Class IRI="#NonPhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#satisfies"/>
+            <Class IRI="#Description"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MnemonicDiagram"/>
+        <Class IRI="#ElementHMI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeTP"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeTP"/>
+        <Class IRI="#TECHPROCESS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeTP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependsOn"/>
+            <Class IRI="#Parameters"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeTP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isConstraintFor"/>
+            <Class IRI="#StateObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moment"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiDimensional"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiDimensional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Data"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NameNumberAmount"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Names"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nomenclature"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nomenclature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Names"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAgentivePhysical"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPhysicalObject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonWorking"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#North"/>
+        <Class IRI="#Directional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotCorrect"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotReady"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numbers"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <Class IRI="#Event"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasConstituent"/>
+            <Class IRI="#Object"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Object"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isClassifiedBy"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectTP"/>
+        <Class IRI="#GroupTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectTP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#CurrentlyAvailable"/>
+            <Class IRI="#ModeTP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectTP"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#CurrentlyAvailable"/>
+            <Class IRI="#StateObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includesEvent"/>
+            <Class IRI="#Stimulus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#observationResult"/>
+            <Class IRI="#Output"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#observedBy"/>
+            <Class IRI="#Sensor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#observedProperty"/>
+            <Class IRI="#Property"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#observedBy"/>
+            <Class IRI="#Sensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#observedProperty"/>
+            <Class IRI="#Property"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationValue"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRegionFor"/>
+            <Class IRI="#Output"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneDimensional"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneDimensional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Data"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operation"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#StaffAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Or"/>
+        <Class IRI="#LogicalOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Ranges"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrgElements"/>
+        <Class IRI="#Organisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrgElements"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrgElements"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Technology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrgElements"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#OrgElements"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organisation"/>
+        <Class IRI="#ETS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organism"/>
+        <Class IRI="#BiologicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Origin"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output"/>
+        <Class IRI="#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasValue"/>
+            <Class IRI="#ObservationValue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isProdusedBy"/>
+            <Class IRI="#Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameters"/>
+        <Class IRI="#Auxiliary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passive"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Path"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceptual"/>
+        <Class IRI="#Atribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceptual"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#affectsOn"/>
+            <Class IRI="#Stimulus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perdurant"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent"/>
+        <Class IRI="#Alive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#conceptualizes"/>
+            <Class IRI="#Plan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalObject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#PhysicalObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isLocationOf"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComponent"/>
+            <Class IRI="#Goal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlanExecution"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point"/>
+        <Class IRI="#SpatialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positional"/>
+        <Class IRI="#Relational"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Stative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInput"/>
+            <Class IRI="#Input"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOutput"/>
+            <Class IRI="#Output"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOfLabor"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOfLabor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#InformationRealization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOfLabor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isResultOf"/>
+            <Class IRI="#TECHPROCESS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Property"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualitative"/>
+        <Class IRI="#Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantitative"/>
+        <Class IRI="#Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ranges"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ranks"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ready"/>
+        <Class IRI="#StateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegSpaceZone"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasConstituent"/>
+            <Class IRI="#Region"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Region"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#overlaps"/>
+            <Class IRI="#Region"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class IRI="#Region"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relational"/>
+        <Class IRI="#Atribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relationships"/>
+        <Class IRI="#Scales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relationships"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Numbers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Results"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#definesRole"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#definesTask"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#classifies"/>
+            <Class IRI="#Object"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scales"/>
+        <Class IRI="#Auxiliary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensing"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensingDevice"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#HMI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Sensing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#HasMeasurementCapability"/>
+            <Class IRI="#MeasurementCapability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#detects"/>
+            <Class IRI="#Stimulus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#observes"/>
+            <Class IRI="#Property"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#satisfies"/>
+            <Class IRI="#Description"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialAgent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialAgent"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#actsThrough"/>
+            <Class IRI="#PhysicalAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialObject"/>
+        <Class IRI="#NonPhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isExpressedBy"/>
+            <Class IRI="#InformationObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#SocialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialPerson"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialPerson"/>
+        <Class IRI="#SocialAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialPerson"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#actsThrough"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sotuh"/>
+        <Class IRI="#Directional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Perceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space"/>
+        <Class IRI="#SpaceTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpaceTime"/>
+        <Class IRI="#META"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialBoundary"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialRegion"/>
+        <Class IRI="#Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatioTemporalRegion"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StableCasual"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffAgent"/>
+        <Class IRI="#ETS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#actsThrough"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isMemberOf"/>
+                <Class IRI="#Collective"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Human"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaffAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isIntroducedBy"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Description"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#unifies"/>
+                    <Class IRI="#Collective"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Stative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateFunction"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateFunction"/>
+        <Class IRI="#TECHPROCESS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateGroupTP"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateGroupTP"/>
+        <Class IRI="#TECHPROCESS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateObject"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateObject"/>
+        <Class IRI="#TECHPROCESS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#actsThrough"/>
+            <Class IRI="#Transition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParametrizedBy"/>
+            <Class IRI="#Parameters"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateProductOfLabor"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateProductOfLabor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Transition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stative"/>
+        <Class IRI="#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stative"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasConstituent"/>
+            <Class IRI="#Stative"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stative"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Stative"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stative"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Object"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stimulus"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stimulus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#reacts"/>
+            <Class IRI="#Perceptual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectOfLabor"/>
+        <Class IRI="#Alive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectOfLabor"/>
+        <Class IRI="#ETS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectOfLabor"/>
+        <Class IRI="#Inanimate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surface"/>
+        <Class IRI="#SpatialBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TECHPROCESS"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TECHPROCESS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependsOn"/>
+            <Class IRI="#Manufacture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <Class IRI="#EventType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Plan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Task"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isExecutedIn"/>
+            <Class IRI="#Action"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTaskDefinedIn"/>
+            <Class IRI="#Description"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTaskOf"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechCondition"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechEvent"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechEvent"/>
+        <Class IRI="#TECHPROCESS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lines"/>
+            <Class IRI="#ObjectTP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <Class IRI="#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#Role"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#Task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Facilities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technology"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#defines"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnologyExecution"/>
+        <Class IRI="#PlanExecution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Texture"/>
+        <Class IRI="#Perceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#SpaceTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeBoundary"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeBoundary"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TimeBoundaryOf"/>
+            <Class IRI="#Chronoid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#ETS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#Inanimate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#ObjectTP"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#StateObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topoid"/>
+        <Class IRI="#SpatialRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSettingFor"/>
+            <Class IRI="#Process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSettingFor"/>
+            <Class IRI="#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#includesEvent"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#includesObject"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="#includesTime"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transition"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#isSettingFor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trend"/>
+        <Class IRI="#ElementHMI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#True"/>
+        <Class IRI="#Logical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeCollection"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Units"/>
+        <Class IRI="#Auxiliary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnstableEmergency"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value"/>
+        <Class IRI="#Auxiliary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#DisplayedOn"/>
+            <Class IRI="#ElementHMI"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visual"/>
+        <Class IRI="#Perceptual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#West"/>
+        <Class IRI="#Directional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Working"/>
+        <Class IRI="#StateObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1"/>
+        <Class IRI="#ModeTP"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Abstract"/>
+        <Class IRI="#Event"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Abstract"/>
+        <Class IRI="#Object"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Description"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#InformationObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#SocialAgent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Description"/>
+        <Class IRI="#InformationObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Description"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Description"/>
+        <Class IRI="#SocialAgent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Event"/>
+        <Class IRI="#Object"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EventType"/>
+        <Class IRI="#Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForPhysicalObject"/>
+        <Class IRI="#InterTimeZone"/>
+        <Class IRI="#NameNumberAmount"/>
+        <Class IRI="#RegSpaceZone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#SocialAgent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Input"/>
+        <Class IRI="#Output"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PhysicalObject"/>
+        <Class IRI="#SocialObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Situation"/>
+        <Class IRI="#SocialAgent"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasMeasurementCapability"/>
+        <ObjectProperty IRI="#hasProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasSpatialBoundary"/>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#SpatialBoundaryOf"/>
+        <ObjectProperty IRI="#boundaryOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TimeBoundaryOf"/>
+        <ObjectProperty IRI="#boundaryOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#boundaryOf"/>
+        <ObjectProperty IRI="#dependsOn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#conceptualizes"/>
+        <ObjectProperty IRI="#classifies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectProperty IRI="#usesConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#definesRole"/>
+        <ObjectProperty IRI="#defines"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#definesTask"/>
+        <ObjectProperty IRI="#defines"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#directlyFollows"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#executesTask"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#expands"/>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#expressesConcept"/>
+        <ObjectProperty IRI="#expresses"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#feautureOfInterest"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComponent"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConstraint"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLeftTimeBoundary"/>
+        <ObjectProperty IRI="#hasTimeBoundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeasurementProperty"/>
+        <ObjectProperty IRI="#hasProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParameter"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPostcondition"/>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrecondition"/>
+        <ObjectProperty IRI="#directlyFollows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRightTimeBoundary"/>
+        <ObjectProperty IRI="#hasTimeBoundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRole"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTask"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTimeBoundary"/>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#implementedBy"/>
+        <ObjectProperty IRI="#describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#implements"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesAction"/>
+        <ObjectProperty IRI="#includesEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesAgent"/>
+        <ObjectProperty IRI="#includesObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesEvent"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesObject"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includesTime"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvesAgent"/>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isActionIncludedIn"/>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAgentIncludedIn"/>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAgentInvolvedIn"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isConceptExpressedBy"/>
+        <ObjectProperty IRI="#isExpressedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isConstraintFor"/>
+        <ObjectProperty IRI="#classifies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDefinedIn"/>
+        <ObjectProperty IRI="#isConceptUsedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+        <ObjectProperty IRI="#hasSetting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isExecutedIn"/>
+        <ObjectProperty IRI="#classifies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isExpandedIn"/>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+        <ObjectProperty IRI="#hasSetting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isObservableAt"/>
+        <ObjectProperty IRI="#hasRegion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isParameterFor"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isParametrizedBy"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPostconditionOf"/>
+        <ObjectProperty IRI="#directlyFollows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPreconditionOf"/>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRoleDefinedIn"/>
+        <ObjectProperty IRI="#isDefinedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRoleOf"/>
+        <ObjectProperty IRI="#classifies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+        <ObjectProperty IRI="#directlyFollows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTaskDefinedIn"/>
+        <ObjectProperty IRI="#isDefinedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTaskOf"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTimeIncludedIn"/>
+        <ObjectProperty IRI="#hasSetting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTimeOfObservationOf"/>
+        <ObjectProperty IRI="#isRegionFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#madeObservation"/>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#observationResult"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#observedProperty"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#parametrizes"/>
+        <ObjectProperty IRI="#classifies"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DisplayedOn"/>
+        <ObjectProperty IRI="#displays"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasSpatialBoundary"/>
+        <ObjectProperty IRI="#SpatialBoundaryOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TimeBoundaryOf"/>
+        <ObjectProperty IRI="#hasTimeBoundary"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#actsFor"/>
+        <ObjectProperty IRI="#actsThrough"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#affectsOn"/>
+        <ObjectProperty IRI="#reacts"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#boundaryOf"/>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#characterizes"/>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#classifies"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#conceptualizes"/>
+        <ObjectProperty IRI="#isConceptualizedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#concretelyExpresses"/>
+        <ObjectProperty IRI="#isConcretelyExpressedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#covers"/>
+        <ObjectProperty IRI="#isCoveredBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectProperty IRI="#isDefinedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#definesRole"/>
+        <ObjectProperty IRI="#isRoleDefinedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#definesTask"/>
+        <ObjectProperty IRI="#isTaskDefinedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#directlyFollows"/>
+        <ObjectProperty IRI="#directlyPrecedes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#executesTask"/>
+        <ObjectProperty IRI="#isExecutedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#expands"/>
+        <ObjectProperty IRI="#isExpandedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#expresses"/>
+        <ObjectProperty IRI="#isExpressedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#expressesConcept"/>
+        <ObjectProperty IRI="#isConceptExpressedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#farFrom"/>
+        <ObjectProperty IRI="#farFrom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#precedes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasComponent"/>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <ObjectProperty IRI="#isConstituentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasConstraint"/>
+        <ObjectProperty IRI="#isConstraintFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParameter"/>
+        <ObjectProperty IRI="#isParameterFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPostcondition"/>
+        <ObjectProperty IRI="#isPostconditionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPrecondition"/>
+        <ObjectProperty IRI="#isPreconditionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasProperty"/>
+        <ObjectProperty IRI="#isPropertyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasQuality"/>
+        <ObjectProperty IRI="#isQualityOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRegion"/>
+        <ObjectProperty IRI="#isRegionFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRole"/>
+        <ObjectProperty IRI="#isRoleOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSetting"/>
+        <ObjectProperty IRI="#isSettingFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTask"/>
+        <ObjectProperty IRI="#isTaskOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#implementedBy"/>
+        <ObjectProperty IRI="#implements"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includesAction"/>
+        <ObjectProperty IRI="#isActionIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includesAgent"/>
+        <ObjectProperty IRI="#isAgentIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includesEvent"/>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includesObject"/>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includesTime"/>
+        <ObjectProperty IRI="#isTimeIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#introduces"/>
+        <ObjectProperty IRI="#isIntroducedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#involvesAgent"/>
+        <ObjectProperty IRI="#isAgentInvolvedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAbout"/>
+        <ObjectProperty IRI="#isReferenceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isConceptUsedIn"/>
+        <ObjectProperty IRI="#usesConcept"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isObservableAt"/>
+        <ObjectProperty IRI="#isTimeOfObservationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isParametrizedBy"/>
+        <ObjectProperty IRI="#parametrizes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isProdusedBy"/>
+        <ObjectProperty IRI="#produces"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <ObjectProperty IRI="#realizes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isReferenceOfInformationRealizedBy"/>
+        <ObjectProperty IRI="#realizesInformationAbout"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSatisfiedBy"/>
+        <ObjectProperty IRI="#satisfies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSpecializedBy"/>
+        <ObjectProperty IRI="#specializes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUnifiedBy"/>
+        <ObjectProperty IRI="#unifies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#nearTo"/>
+        <ObjectProperty IRI="#nearTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#overlaps"/>
+        <ObjectProperty IRI="#overlaps"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#DisplayedOn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasInput"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasOutput"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isProdusedBy"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#displays"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#produces"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#farFrom"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#nearTo"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#overlaps"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#follows"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasPart"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isSpecializedBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#specializes"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CurrentlyAvailable"/>
+        <Class IRI="#ObjectTP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasMeasurementCapability"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SpatialBoundaryOf"/>
+        <Class IRI="#SpatialBoundary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TimeBoundaryOf"/>
+        <Class IRI="#TimeBoundary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actsFor"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#SocialAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#StateObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsOn"/>
+        <Class IRI="#Perceptual"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#characterizes"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#classifies"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#conceptualizes"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#concretelyExpresses"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#ElementHMI"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesRole"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesTask"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dependsOn"/>
+        <Class IRI="#Manufacture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dependsOn"/>
+        <Class IRI="#ModeTP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detects"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#executesTask"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expands"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#ProductOfLabor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expressesConcept"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#farFrom"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#feautureOfInterest"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#forProperty"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnalyzer"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConstraint"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInput"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeasurementProperty"/>
+        <Class IRI="#Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutput"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <Class IRI="#Scales"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPostcondition"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrecondition"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProperty"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuality"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRole"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTask"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implementedBy"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implementedBy"/>
+        <Class IRI="#ProductOfLabor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Goal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesAction"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesAgent"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesEvent"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesObject"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includesTime"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#introduces"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involvesAgent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isActionIncludedIn"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAgentIncludedIn"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAgentInvolvedIn"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConceptExpressedBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConceptUsedIn"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConceptualizedBy"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConcretelyExpressedBy"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConstituentOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCoveredBy"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDefinedIn"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExecutedIn"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExpandedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIntroducedBy"/>
+        <Class IRI="#SocialAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObservableAt"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParametrizedBy"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParametrizedBy"/>
+        <Class IRI="#StateObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParticipantIn"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPostconditionOf"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPreconditionOf"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProdusedBy"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPropertyOf"/>
+        <Class IRI="#Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProxyFor"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReferenceOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReferenceOfInformationRealizedBy"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRegionFor"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isResultOf"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isResultOf"/>
+        <Class IRI="#ProductOfLabor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRoleDefinedIn"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRoleOf"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSatisfiedBy"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSettingFor"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSpecializedBy"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTaskDefinedIn"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTaskOf"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUnifiedBy"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lines"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nearTo"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observationResult"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observedBy"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observedProperty"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observes"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#overlaps"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedes"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#Manufacture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reacts"/>
+        <Class IRI="#Stimulus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizesInformationAbout"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#satisfies"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#specializes"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takesOnValue"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unifies"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesConcept"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CurrentlyAvailable"/>
+        <Class IRI="#ModeTP"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CurrentlyAvailable"/>
+        <Class IRI="#StateObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DisplayedOn"/>
+        <Class IRI="#ElementHMI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasMeasurementCapability"/>
+        <Class IRI="#MeasurementCapability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSpatialBoundary"/>
+        <Class IRI="#SpatialBoundary"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SpatialBoundaryOf"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TimeBoundaryOf"/>
+        <Class IRI="#Chronoid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actsFor"/>
+        <Class IRI="#SocialAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#Transition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affectsOn"/>
+        <Class IRI="#Stimulus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#characterizes"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#classifies"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#conceptualizes"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#concretelyExpresses"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#ModeTP"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coparticipatesWith"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesRole"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesTask"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependsOn"/>
+        <Class IRI="#ETS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependsOn"/>
+        <Class IRI="#Parameters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dependsOn"/>
+        <Class IRI="#TECHPROCESS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detects"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinedByFixedTimeAtTheMoment"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#executesTask"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expands"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expressesConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#farFrom"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#forProperty"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnalyzer"/>
+        <Class IRI="#Perceptual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCommonBoundary"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInput"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasurementProperty"/>
+        <Class IRI="#MeasurementProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutput"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPostcondition"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrecondition"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProperty"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRole"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTask"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#ObservationValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implementedBy"/>
+        <Class IRI="#Goal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implementedBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#ProductOfLabor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includesAction"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includesAgent"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includesEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includesObject"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#introduces"/>
+        <Class IRI="#SocialAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involvesAgent"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isActionIncludedIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAgentIncludedIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAgentInvolvedIn"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacterizedBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConceptExpressedBy"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConceptUsedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConceptualizedBy"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConcretelyExpressedBy"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConstituentOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConstraintFor"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCoveredBy"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDefinedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEventIncludedIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExecutedIn"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExpandedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIntroducedBy"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocationOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectIncludedIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isParameterFor"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isParticipantIn"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPostconditionOf"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPreconditionOf"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProdusedBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPropertyOf"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProxyFor"/>
+        <Class IRI="#Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQualityOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReferenceOf"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReferenceOfInformationRealizedBy"/>
+        <Class IRI="#InformationRealization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRegionFor"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedToConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedToDescription"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isResultOf"/>
+        <Class IRI="#TECHPROCESS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRoleDefinedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRoleOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSatisfiedBy"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSettingFor"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSpecializedBy"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubordinatedTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuperordinatedTo"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTaskDefinedIn"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTaskOf"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTimeIncludedIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTimeOfObservationOf"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUnifiedBy"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lines"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nearTo"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observationResult"/>
+        <Class IRI="#Output"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observedBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observedProperty"/>
+        <Class IRI="#Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observes"/>
+        <Class IRI="#Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#overlaps"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#parametrizes"/>
+        <Class IRI="#Parameters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#parametrizes"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedes"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#ProductOfLabor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reacts"/>
+        <Class IRI="#Perceptual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#InformationObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizesInformationAbout"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#satisfies"/>
+        <Class IRI="#Description"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#specializes"/>
+        <Class IRI="#SocialObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takesOnValue"/>
+        <Class IRI="#Logical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unifies"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#HasMeasurementCapability"/>
+            <ObjectProperty IRI="#forProperty"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#observes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#madeObservation"/>
+            <ObjectProperty IRI="#observedProperty"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#observes"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEventDate"/>
+        <DataProperty IRI="#hasDataValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasIntervalDate"/>
+        <DataProperty IRI="#hasRegionDataValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasParameterDataValue"/>
+        <DataProperty IRI="#hasDataValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRegionDataValue"/>
+        <DataProperty IRI="#hasDataValue"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDataValue"/>
+        <Class IRI="#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEventDate"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProxy"/>
+        <Class IRI="#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRegionDataValue"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEventDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIntervalDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasProxy"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:comment</AbbreviatedIRI>
+        <IRI>#Entity</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:versionInfo</AbbreviatedIRI>
+        <Literal>пространственно-временной</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

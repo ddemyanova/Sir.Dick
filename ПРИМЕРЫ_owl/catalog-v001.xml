@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="http://www.onto-med.de/ontologies/gfo.owl" uri="gfo-1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="http://www.semanticweb.org/qq/ontologies/2017/3/untitled-ontology-59" uri="rewrite_ont_dul1904.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="duplicate:http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31" uri="meta_tp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="duplicate:http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31" uri="meta_tp1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="duplicate:http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31" uri="meta_tp1_SSN.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584185805648" name="duplicate:http://www.semanticweb.org/vlad/ontologies/2017/3/untitled-ontology-31" uri="OntologyTP.owl"/>
+    </group>
+</catalog>
